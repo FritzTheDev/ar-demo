@@ -6,10 +6,17 @@
   <body style="margin: 0px; overflow: hidden">
     <a-scene embedded arjs>
       <a-marker preset="hiro">
-        <a-gltf-model position="0 0 0" scale=".0001 .0001 .0001" src="scene.gltf"></a-gltf-model>
+        <a-gltf-model
+          position="0 0 0"
+          scale=".0001 .0001 .0001"
+          src="scene.gltf"
+        ></a-gltf-model>
       </a-marker>
 
       <a-entity camera></a-entity>
     </a-scene>
+    <script>
+      document.documentElement.requestFullscreen();
+    </script>
   </body>
 </html>
