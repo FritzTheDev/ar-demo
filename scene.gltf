@@ -3,24 +3,24 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 3742,
+      "count": 14096,
       "max": [
-        1600,
-        1600.0009765625,
-        4945.001953125
+        3332.951171875,
+        2430,
+        16248.599609375
       ],
       "min": [
-        -1600.0013427734375,
-        -1729.0286865234375,
-        -0.000244140625
+        -3332.951171875,
+        -2700,
+        0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 44904,
+      "byteOffset": 169152,
       "componentType": 5126,
-      "count": 3742,
+      "count": 14096,
       "max": [
         1,
         1,
@@ -36,25 +36,25 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 3742,
+      "count": 14096,
       "max": [
-        0.99973523616790771,
-        0.99980366230010986
+        0.99973291158676147,
+        0.99940943717956543
       ],
       "min": [
-        -0.33817189931869507,
-        0.0016166884452104568
+        0.0019427412189543247,
+        0.00049173599109053612
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 1,
-      "byteOffset": 29936,
+      "byteOffset": 112768,
       "componentType": 5126,
-      "count": 3742,
+      "count": 14096,
       "max": [
         0.99900001287460327,
-        0.99802577495574951
+        0.99883466958999634
       ],
       "min": [
         0.0010000000474974513,
@@ -64,40 +64,40 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 59872,
+      "byteOffset": 225536,
       "componentType": 5126,
-      "count": 3742,
+      "count": 14096,
       "max": [
-        0.99973523616790771,
-        0.99980366230010986
+        0.99973291158676147,
+        0.99940943717956543
       ],
       "min": [
-        -0.33817189931869507,
-        0.0016166884452104568
+        0.0019427412189543247,
+        0.00049173599109053612
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 1,
-      "byteOffset": 89808,
+      "byteOffset": 338304,
       "componentType": 5126,
-      "count": 3742,
+      "count": 14096,
       "max": [
-        0.99973523616790771,
-        0.99980366230010986
+        0.99973291158676147,
+        0.99940943717956543
       ],
       "min": [
-        -0.33817189931869507,
-        0.0016166884452104568
+        0.0019427412189543247,
+        0.00049173599109053612
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 5679,
+      "count": 22821,
       "max": [
-        3741
+        14095
       ],
       "min": [
         0
@@ -109,32 +109,32 @@
     "extras": {
       "author": "aitortilla01 (https://sketchfab.com/aitortilla01)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/mid-rise-wall-to-wall-office-building-4d2c3f3450ef4e849056b88b49873ce2",
-      "title": "Mid rise wall to wall office building"
+      "source": "https://sketchfab.com/3d-models/miami-style-condominium-b3e16399830045a7b67ec8e02447fd27",
+      "title": "Miami style condominium"
     },
-    "generator": "Sketchfab-8.76.0",
+    "generator": "Sketchfab-8.75.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 22716,
+      "byteLength": 91284,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 119744,
-      "byteOffset": 22716,
+      "byteLength": 451072,
+      "byteOffset": 91284,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 89808,
-      "byteOffset": 142460,
+      "byteLength": 338304,
+      "byteOffset": 542356,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
@@ -142,19 +142,19 @@
   ],
   "buffers": [
     {
-      "byteLength": 232268,
+      "byteLength": 880660,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/b_hotr04_W2W7_t2_l1_baseColor.png"
+      "uri": "textures/hirise8_baseColor.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "b_hotr04_W2W7_t2_l1",
+      "name": "hirise8",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1,
@@ -173,7 +173,7 @@
   ],
   "meshes": [
     {
-      "name": "AIT01W2W7_b_hotr04_W2W7_t2_l1_0",
+      "name": "hirise8_hirise8_0",
       "primitives": [
         {
           "attributes": {
@@ -232,7 +232,7 @@
         0,
         1
       ],
-      "name": "AIT01W2W7.FBX"
+      "name": "hirise8.FBX"
     },
     {
       "children": [
@@ -257,16 +257,16 @@
         1,
         2.2204460492503131e-16,
         0,
-        0.000244140625,
+        0,
         0,
         0,
         1
       ],
-      "name": "AIT01W2W7"
+      "name": "hirise8"
     },
     {
       "mesh": 0,
-      "name": "AIT01W2W7_b_hotr04_W2W7_t2_l1_0"
+      "name": "hirise8_hirise8_0"
     }
   ],
   "samplers": [
